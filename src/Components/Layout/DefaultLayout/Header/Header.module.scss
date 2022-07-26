@@ -1,0 +1,45 @@
+.wapper {
+    position: relative;
+    width: 100%;
+    height: 3.625em;
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+
+    * {
+        display: inline-block;
+    }
+
+    a,
+    p {
+        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .left {
+        position: absolute;
+        left: 20%;
+
+        p {
+            margin-right: 1em;
+        }
+    }
+
+    .right {
+        position: absolute;
+        right: 20%;
+
+        a {
+            margin-left: 1em;
+
+            &:hover {
+                color: #FFBD13;
+            }
+        }
+    }
+}
+
